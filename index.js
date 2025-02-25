@@ -36,7 +36,30 @@ const addAccount = (fName, lName, eMail, age) => {
             age: age,
             uniqueID: generateUniqueID(fName, lName)
         }
-        return data;
+
+        const join = Object.values(data).join(", ");
+        const next = join + '\n';
+
+        //if file doesn't exist, create file
+        //meron namang file, so auto sunod siya sa first condition
+        //still appending the users
+        if (fs.existsSync("users.txt")) {
+            fs.readFileSync("users.txt", "utf-8");
+            fs.appendFileSync("users.txt", next);
+            console.log("User is saved.");
+            return true;
+        } else {
+            fs.writeFileSync("users.txt");
+            fs.readFileSync("users.txt", "utf-8");
+            fs.appendFileSync("users.txt", next);
+            console.log("User is saved.");
+            return true;
+        }
+
+        //return next;
+    } else {
+        console.log("Failed to save user.");
+        return false;
     }
     //if the user is saved, return true
     //else, return false
@@ -47,5 +70,5 @@ const addAccount = (fName, lName, eMail, age) => {
 //console.log(testing);
 
 //testing output
-const testing = addAccount(fName, lName, eMail, age);
-console.log(testing);
+const generate = addAccount(fName, lName, eMail, age);
+console.log(generate);

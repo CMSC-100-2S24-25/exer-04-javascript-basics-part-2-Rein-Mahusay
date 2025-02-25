@@ -16,4 +16,5 @@
 - https://www.w3schools.com/jsref/jsref_tolowercase.asp
 - https://bito.ai/resources/javascript-limit-string-length-javascript-explained/
 - https://www.freecodecamp.org/news/check-if-string-is-empty-or-null-javascript/
-- 
+- https://typedarray.org/convert-object-values-comma-separated-string-js/
+- https://www.geeksforgeeks.org/node-js-fs-appendfilesync-function/
