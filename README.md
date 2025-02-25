@@ -13,7 +13,7 @@
 
 / Built-in codes are also a plus. I get to use them for string conversion, length restriction, character indexing, and lettercase altering. <br/>
 
-/ Importing and exporting were kind of confusing. Since I enabled the modeule setting in the package.json, it kind of got more sensitive with exporting keywords. I first used default exporting, but it didn't work. I then used named exporting. It both works by adding export at the end with bundled up objects and inserting they keyword 'export' at the beginning of the functions. <br/><br/>
+/ Importing and exporting were kind of confusing. Since I enabled the modeule setting in the package.json, it kind of got more sensitive with exporting keywords. I first used default exporting, but it didn't work. I then used named exporting. It both works by adding export at the end with bundled up objects and inserting they keyword 'export' at the beginning of the functions. <br/>
 
 Though at first, I keep getting errors even though I got the right import-export syntax. It was because of the variables, I needed to put it in test.js. Though even with that change, the default exporting still does not work. <br/>
 
