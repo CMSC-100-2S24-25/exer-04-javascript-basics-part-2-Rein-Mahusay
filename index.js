@@ -1,7 +1,7 @@
-const fName = "Alan";
-const lName = "Turing";
-const eMail = "aturing@w3c.com";
-const age = 58;
+// const fName = "Alan";
+// const lName = "Turing";
+// const eMail = "aturing@w3c.com";
+// const age = 58;
 
 //built-in
 import fs from 'fs';
@@ -66,9 +66,16 @@ const addAccount = (fName, lName, eMail, age) => {
 }
 
 
+export { generateUniqueID, addAccount };
+
+//export default { generateUniqueID, addAccount };
+
+//have the type:module on
+//module.exports = { generateUniqueID, addAccount };
+
 //const testing = generateUniqueID(fName, lName);
 //console.log(testing);
 
 //testing output
-const generate = addAccount(fName, lName, eMail, age);
-console.log(generate);
+//const generate = addAccount(fName, lName, eMail, age);
+//console.log(generate);

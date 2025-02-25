@@ -9,6 +9,16 @@
 
 ## Key Takeaways
 
+/ Packages are very helpful. The fs, uuid, and validator packages were convenient to use and with the additional keywords for help from the installation instructions are a lifesaver. They helped easily with random id generation, validations of every kind of input, and file operations. <br/>
+
+/ Built-in codes are also a plus. I get to use them for string conversion, length restriction, character indexing, and lettercase altering. <br/>
+
+/ Importing and exporting were kind of confusing. Since I enabled the modeule setting in the package.json, it kind of got more sensitive with exporting keywords. I first used default exporting, but it didn't work. I then used named exporting. It both works by adding export at the end with bundled up objects and inserting they keyword 'export' at the beginning of the functions. <br/><br/>
+
+Though at first, I keep getting errors even though I got the right import-export syntax. It was because of the variables, I needed to put it in test.js. Though even with that change, the default exporting still does not work. <br/>
+
+/ As for the file operations, I found a link on how AppendFileSync() works: (https://www.geeksforgeeks.org/node-js-fs-appendfilesync-function/) and successfully made it happen. To return true-false statements, first see if the data of the user is valid then add it to the text file. If not, then it does not need to append the data into the text file.
+
 
 ## References
 
