@@ -4,13 +4,17 @@ const eMail = "aturing@w3c.com";
 const age = 58;
 let data = [];
 
+//built-in
+import fs from 'fs';
 //import from the uuid package, found an instruction form the installation instruction
 import { v4 as uuidv4 } from 'uuid';
+import isEmail from 'validator/lib/isEmail';
+//isEmail(str [, options])
 
 const generateUniqueID = (fName, lName) => {
     //built-in codes
     const combine = fName.charAt(0).toLowerCase() + lName.toLowerCase();
-    let uuid = uuidv4().toString();
+    let uuid = uuidv4().substring(0, 8).toString();
     const genID = combine + uuid;
     return genID;
 }

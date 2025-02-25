@@ -14,4 +14,5 @@
 
 - https://www.w3schools.com/jsref/jsref_charat.asp
 - https://www.w3schools.com/jsref/jsref_tolowercase.asp
+- https://bito.ai/resources/javascript-limit-string-length-javascript-explained/
 - 
