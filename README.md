@@ -17,7 +17,7 @@
 
 Though at first, I keep getting errors even though I got the right import-export syntax. It was because of the variables, I needed to put it in test.js. Though even with that change, the default exporting still does not work. <br/>
 
-Note : with export{}, 'node .' does not work. Though it runs when clicked the run code symbol at the upper right. However, when used 'export' at the beggining of every function, 'node .' works but the other does not. This is how it works in my device. <br/>
+Note : with export{} and keyword 'export', 'node .' does not work. Though it runs when clicked the run code symbol at the upper right. This is how it works in my device. <br/>
 
 / As for the file operations, I found a link on how AppendFileSync() works: (https://www.geeksforgeeks.org/node-js-fs-appendfilesync-function/) and successfully made it happen. To return true-false statements, first see if the data of the user is valid then add it to the text file. If not, then it does not need to append the data into the text file.
 
